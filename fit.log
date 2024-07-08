@@ -1,0 +1,373 @@
+INFO     : 
+================================================================
+Intel (R) Modular Flash Image Tool. Version: 16.50.0.1120
+Copyright (c) 2022, Intel Corporation. All rights reserved.
+================================================================
+Command Line: ./MFIT/Linux64/mfit 
+
+INFO     : Start decompose '/tmp/Ald-CSME/hs-adln-4l-v10-t5a-logo.bin' image.
+INFO     : MFIT version used to build the image: 16.50.0.1120
+INFO     : Generate layout dictionary <xpath, container wrapper>
+INFO     : Layout dictionary generated successfully
+INFO     : Revision number of the currently loaded Intel(R) ME binary binary: 16.50.0.1175
+INFO     : Executing SigningContainer decompose
+INFO     : SigningContainer decompose completed successfully
+INFO     : Executing HarnessGlobalData decompose
+INFO     : HarnessGlobalData decompose completed successfully
+INFO     : Executing EcRegionPointer decompose
+INFO     : EcRegionPointer decompose completed successfully
+INFO     : Executing FLASH_VALID_SIGNATURE decompose
+INFO     : FLASH_VALID_SIGNATURE decompose completed successfully
+INFO     : Executing FLMAP0 decompose
+INFO     : FLMAP0 decompose completed successfully
+INFO     : Executing FLMAP1 decompose
+INFO     : FLMAP1 decompose completed successfully
+INFO     : Executing FLMAP2 decompose
+INFO     : FLMAP2 decompose completed successfully
+INFO     : Executing FLMAP3 decompose
+INFO     : FLMAP3 decompose completed successfully
+INFO     : Executing FLMAP4 decompose
+INFO     : FLMAP4 decompose completed successfully
+INFO     : Executing FDBAR decompose
+INFO     : FDBAR decompose completed successfully
+INFO     : Executing FLCOMP decompose
+INFO     : FLCOMP decompose completed successfully
+INFO     : Executing FLIL decompose
+INFO     : FLIL decompose completed successfully
+INFO     : Executing FCBA_RESERVED decompose
+INFO     : FCBA_RESERVED decompose completed successfully
+INFO     : Executing FCBA decompose
+INFO     : FCBA decompose completed successfully
+INFO     : Executing Regions decompose
+INFO     : Regions decompose completed successfully
+INFO     : Executing MasterAccessPermissions decompose
+INFO     : MasterAccessPermissions decompose completed successfully
+INFO     : Executing PchStraps decompose
+INFO     : PchStraps decompose completed successfully
+INFO     : Executing HashDescriptorManifestExt decompose
+INFO     : HashDescriptorManifestExt decompose completed successfully
+INFO     : Executing FdvManifest decompose
+INFO     : FdvManifest decompose completed successfully
+INFO     : Executing PmcStraps decompose
+INFO     : PmcStraps decompose completed successfully
+INFO     : Executing CpuStraps decompose
+INFO     : CpuStraps decompose completed successfully
+INFO     : Executing PmcAndCpu decompose
+INFO     : PmcAndCpu decompose completed successfully
+INFO     : Executing DbCStraps decompose
+INFO     : DbCStraps decompose completed successfully
+INFO     : Executing MipDesc decompose
+INFO     : MipDesc decompose completed successfully
+INFO     : Executing VsccTable decompose
+INFO     : VsccTable decompose completed successfully
+INFO     : Executing OEM decompose
+INFO     : OEM decompose completed successfully
+INFO     : Executing DescriptorRegion decompose
+INFO     : DescriptorRegion decompose completed successfully
+INFO     : Executing EcRegion decompose
+INFO     : EcRegion decompose completed successfully
+INFO     : Executing GbeRegion decompose
+INFO     : GbeRegion decompose completed successfully
+INFO     : Executing RomBypassVector decompose
+INFO     : RomBypassVector decompose completed successfully
+INFO     : Executing CSE_POINTERS decompose
+INFO     : CSE_POINTERS decompose completed successfully
+INFO     : Executing RomBypassVectorCopy decompose
+INFO     : RomBypassVectorCopy decompose completed successfully
+INFO     : Executing CSE_POINTERS_COPY decompose
+INFO     : CSE_POINTERS_COPY decompose completed successfully
+INFO     : Executing RomBypass decompose
+INFO     : RomBypass decompose completed successfully
+INFO     : Executing RBE decompose
+INFO     : RBE decompose completed successfully
+INFO     : Executing PMC decompose
+INFO     : PMC decompose completed successfully
+INFO     : Executing FTPR decompose
+INFO     : FTPR decompose completed successfully
+INFO     : Executing IDLM decompose
+INFO     : IDLM decompose completed successfully
+INFO     : Executing OEM_KM decompose
+INFO     : OEM_KM decompose completed successfully
+INFO     : Executing IOM decompose
+INFO     : IOM decompose completed successfully
+INFO     : Executing NPHY decompose
+INFO     : NPHY decompose completed successfully
+INFO     : Executing TBT decompose
+INFO     : TBT decompose completed successfully
+INFO     : Executing PCHC decompose
+INFO     : PCHC decompose completed successfully
+INFO     : Executing BPDT1 decompose
+INFO     : BPDT1 decompose completed successfully
+INFO     : Executing PSVN decompose
+INFO     : PSVN decompose completed successfully
+INFO     : Executing RSTR decompose
+INFO     : RSTR decompose completed successfully
+INFO     : Executing IMDP decompose
+INFO     : IMDP decompose completed successfully
+INFO     : Executing HVMP decompose
+INFO     : HVMP decompose completed successfully
+INFO     : Executing IVBP decompose
+INFO     : IVBP decompose completed successfully
+INFO     : Executing MFS decompose
+INFO     : MFS decompose completed successfully
+INFO     : Executing UTOK decompose
+INFO     : UTOK decompose completed successfully
+INFO     : Executing FLOG decompose
+INFO     : FLOG decompose completed successfully
+INFO     : Executing ELOG decompose
+INFO     : ELOG decompose completed successfully
+INFO     : Executing EFS decompose
+INFO     : EFS decompose completed successfully
+INFO     : Executing AutoNvars decompose
+INFO     : AutoNvars decompose completed successfully
+INFO     : Executing HmrfpoNvar decompose
+INFO     : HmrfpoNvar decompose completed successfully
+INFO     : Executing Icc decompose
+INFO     : Icc decompose completed successfully
+INFO     : Executing ConfigRulesNvar decompose
+INFO     : ConfigRulesNvar decompose completed successfully
+INFO     : Executing PavpHdcpNvar decompose
+INFO     : PavpHdcpNvar decompose completed successfully
+INFO     : Executing ChipsetInit decompose
+INFO     : ChipsetInit decompose completed successfully
+INFO     : Executing EomNvar decompose
+INFO     : EomNvar decompose completed successfully
+INFO     : Executing TbtConfigDataNvar decompose
+INFO     : TbtConfigDataNvar decompose completed successfully
+INFO     : Executing CameraGpioNvar decompose
+INFO     : CameraGpioNvar decompose completed successfully
+INFO     : Executing FITC decompose
+INFO     : FITC decompose completed successfully
+INFO     : Executing CDMD decompose
+INFO     : CDMD decompose completed successfully
+INFO     : Executing UEP decompose
+INFO     : UEP decompose completed successfully
+INFO     : Executing FDCR decompose
+INFO     : FDCR decompose completed successfully
+INFO     : Executing DATA_PARTITION decompose
+INFO     : DATA_PARTITION decompose completed successfully
+INFO     : Executing BPDT2 decompose
+INFO     : BPDT2 decompose completed successfully
+INFO     : Executing NFTP decompose
+INFO     : NFTP decompose completed successfully
+INFO     : Executing ISH decompose
+INFO     : ISH decompose completed successfully
+INFO     : Executing IUNIT decompose
+INFO     : IUNIT decompose completed successfully
+INFO     : Executing GBST decompose
+INFO     : GBST decompose completed successfully
+INFO     : Executing BPDT3 decompose
+INFO     : BPDT3 decompose completed successfully
+INFO     : Executing CseRegion decompose
+WARNING  : Skipping ROMB. Missing...
+INFO     : add_sub_partition RBEP. offset: 0x1000. length: 0x20000
+INFO     : add_sub_partition FTPR. offset: 0x21000. length: 0x135000
+INFO     : add_sub_partition PSVN. offset: 0x156000. length: 0x200
+INFO     : add_sub_partition RSTR. offset: 0x156200. length: 0x18
+INFO     : add_sub_partition IMDP. offset: 0x156240. length: 0x40
+INFO     : add_sub_partition HVMP. offset: 0x156280. length: 0xC
+INFO     : add_sub_partition IVBP. offset: 0x157000. length: 0x4000
+INFO     : add_sub_partition MFS. offset: 0x15B000. length: 0x64000
+INFO     : add_sub_partition UTOK. offset: 0x1BF000. length: 0x2000
+INFO     : add_sub_partition FLOG. offset: 0x1C1000. length: 0x2000
+INFO     : add_sub_partition ELOG. offset: 0x1C3000. length: 0x1000
+INFO     : add_sub_partition EFS. offset: 0x1C4000. length: 0x11000
+INFO     : add_sub_partition FITC. offset: 0x1D5000. length: 0x8000
+INFO     : add_sub_partition UEP. offset: 0x1DD000. length: 0x2000
+WARNING  : Skipping FDCR. Missing...
+INFO     : add_sub_partition NFTP. offset: 0x1DF000. length: 0x1BD000
+INFO     : CseRegion decompose completed successfully
+INFO     : Executing PdrRegion decompose
+INFO     : PdrRegion decompose completed successfully
+INFO     : Executing PaddingRegion decompose
+INFO     : PaddingRegion decompose completed successfully
+INFO     : Executing BiosRegion decompose
+INFO     : BiosRegion decompose completed successfully
+INFO     : Executing IfwiRoot decompose
+INFO     : IfwiRoot decompose completed successfully
+INFO     : Saving image map file: hs-adln-4l-v10-t5a-logo/Decompose/hs-adln-4l-v10-t5a-logo.map
+INFO     : Saving image info file: hs-adln-4l-v10-t5a-logo/Decompose/hs-adln-4l-v10-t5a-logo.txt
+INFO     : Decompose '/tmp/Ald-CSME/hs-adln-4l-v10-t5a-logo.bin' image completed successfully
+INFO     : Start decompose '/tmp/Ald-CSME/LP-BS-S70NC1R200-SR-A.bin' image.
+INFO     : MFIT version used to build the image: 16.50.0.1085
+INFO     : Generate layout dictionary <xpath, container wrapper>
+INFO     : Layout dictionary generated successfully
+INFO     : Revision number of the currently loaded Intel(R) ME binary binary: 16.50.0.1146
+INFO     : Executing SigningContainer decompose
+INFO     : SigningContainer decompose completed successfully
+INFO     : Executing HarnessGlobalData decompose
+INFO     : HarnessGlobalData decompose completed successfully
+INFO     : Executing EcRegionPointer decompose
+INFO     : EcRegionPointer decompose completed successfully
+INFO     : Executing FLASH_VALID_SIGNATURE decompose
+INFO     : FLASH_VALID_SIGNATURE decompose completed successfully
+INFO     : Executing FLMAP0 decompose
+INFO     : FLMAP0 decompose completed successfully
+INFO     : Executing FLMAP1 decompose
+INFO     : FLMAP1 decompose completed successfully
+INFO     : Executing FLMAP2 decompose
+INFO     : FLMAP2 decompose completed successfully
+INFO     : Executing FLMAP3 decompose
+INFO     : FLMAP3 decompose completed successfully
+INFO     : Executing FLMAP4 decompose
+INFO     : FLMAP4 decompose completed successfully
+INFO     : Executing FDBAR decompose
+INFO     : FDBAR decompose completed successfully
+INFO     : Executing FLCOMP decompose
+INFO     : FLCOMP decompose completed successfully
+INFO     : Executing FLIL decompose
+INFO     : FLIL decompose completed successfully
+INFO     : Executing FCBA_RESERVED decompose
+INFO     : FCBA_RESERVED decompose completed successfully
+INFO     : Executing FCBA decompose
+INFO     : FCBA decompose completed successfully
+INFO     : Executing Regions decompose
+INFO     : Regions decompose completed successfully
+INFO     : Executing MasterAccessPermissions decompose
+INFO     : MasterAccessPermissions decompose completed successfully
+INFO     : Executing PchStraps decompose
+INFO     : PchStraps decompose completed successfully
+INFO     : Executing HashDescriptorManifestExt decompose
+INFO     : HashDescriptorManifestExt decompose completed successfully
+INFO     : Executing FdvManifest decompose
+INFO     : FdvManifest decompose completed successfully
+INFO     : Executing PmcStraps decompose
+INFO     : PmcStraps decompose completed successfully
+INFO     : Executing CpuStraps decompose
+INFO     : CpuStraps decompose completed successfully
+INFO     : Executing PmcAndCpu decompose
+INFO     : PmcAndCpu decompose completed successfully
+INFO     : Executing DbCStraps decompose
+INFO     : DbCStraps decompose completed successfully
+INFO     : Executing MipDesc decompose
+INFO     : MipDesc decompose completed successfully
+INFO     : Executing VsccTable decompose
+INFO     : VsccTable decompose completed successfully
+INFO     : Executing OEM decompose
+INFO     : OEM decompose completed successfully
+INFO     : Executing DescriptorRegion decompose
+INFO     : DescriptorRegion decompose completed successfully
+INFO     : Executing EcRegion decompose
+INFO     : EcRegion decompose completed successfully
+INFO     : Executing GbeRegion decompose
+INFO     : GbeRegion decompose completed successfully
+INFO     : Executing RomBypassVector decompose
+INFO     : RomBypassVector decompose completed successfully
+INFO     : Executing CSE_POINTERS decompose
+INFO     : CSE_POINTERS decompose completed successfully
+INFO     : Executing RomBypassVectorCopy decompose
+INFO     : RomBypassVectorCopy decompose completed successfully
+INFO     : Executing CSE_POINTERS_COPY decompose
+INFO     : CSE_POINTERS_COPY decompose completed successfully
+INFO     : Executing RomBypass decompose
+INFO     : RomBypass decompose completed successfully
+INFO     : Executing RBE decompose
+INFO     : RBE decompose completed successfully
+INFO     : Executing PMC decompose
+INFO     : PMC decompose completed successfully
+INFO     : Executing FTPR decompose
+INFO     : FTPR decompose completed successfully
+INFO     : Executing IDLM decompose
+INFO     : IDLM decompose completed successfully
+INFO     : Executing OEM_KM decompose
+INFO     : OEM_KM decompose completed successfully
+INFO     : Executing IOM decompose
+INFO     : IOM decompose completed successfully
+INFO     : Executing NPHY decompose
+INFO     : NPHY decompose completed successfully
+INFO     : Executing TBT decompose
+INFO     : TBT decompose completed successfully
+INFO     : Executing PCHC decompose
+INFO     : PCHC decompose completed successfully
+INFO     : Executing BPDT1 decompose
+INFO     : BPDT1 decompose completed successfully
+INFO     : Executing PSVN decompose
+INFO     : PSVN decompose completed successfully
+INFO     : Executing RSTR decompose
+INFO     : RSTR decompose completed successfully
+INFO     : Executing IMDP decompose
+INFO     : IMDP decompose completed successfully
+INFO     : Executing HVMP decompose
+INFO     : HVMP decompose completed successfully
+INFO     : Executing IVBP decompose
+INFO     : IVBP decompose completed successfully
+INFO     : Executing MFS decompose
+INFO     : MFS decompose completed successfully
+INFO     : Executing UTOK decompose
+INFO     : UTOK decompose completed successfully
+INFO     : Executing FLOG decompose
+INFO     : FLOG decompose completed successfully
+INFO     : Executing ELOG decompose
+INFO     : ELOG decompose completed successfully
+INFO     : Executing EFS decompose
+INFO     : EFS decompose completed successfully
+INFO     : Executing AutoNvars decompose
+INFO     : AutoNvars decompose completed successfully
+INFO     : Executing HmrfpoNvar decompose
+INFO     : HmrfpoNvar decompose completed successfully
+INFO     : Executing Icc decompose
+INFO     : Icc decompose completed successfully
+INFO     : Executing ConfigRulesNvar decompose
+INFO     : ConfigRulesNvar decompose completed successfully
+INFO     : Executing PavpHdcpNvar decompose
+INFO     : PavpHdcpNvar decompose completed successfully
+INFO     : Executing ChipsetInit decompose
+INFO     : ChipsetInit decompose completed successfully
+INFO     : Executing EomNvar decompose
+INFO     : EomNvar decompose completed successfully
+INFO     : Executing TbtConfigDataNvar decompose
+INFO     : TbtConfigDataNvar decompose completed successfully
+INFO     : Executing CameraGpioNvar decompose
+INFO     : CameraGpioNvar decompose completed successfully
+INFO     : Executing FITC decompose
+INFO     : FITC decompose completed successfully
+INFO     : Executing CDMD decompose
+INFO     : CDMD decompose completed successfully
+INFO     : Executing UEP decompose
+INFO     : UEP decompose completed successfully
+INFO     : Executing FDCR decompose
+INFO     : FDCR decompose completed successfully
+INFO     : Executing DATA_PARTITION decompose
+INFO     : DATA_PARTITION decompose completed successfully
+INFO     : Executing BPDT2 decompose
+INFO     : BPDT2 decompose completed successfully
+INFO     : Executing NFTP decompose
+INFO     : NFTP decompose completed successfully
+INFO     : Executing ISH decompose
+INFO     : ISH decompose completed successfully
+INFO     : Executing IUNIT decompose
+INFO     : IUNIT decompose completed successfully
+INFO     : Executing GBST decompose
+INFO     : GBST decompose completed successfully
+INFO     : Executing BPDT3 decompose
+INFO     : BPDT3 decompose completed successfully
+INFO     : Executing CseRegion decompose
+WARNING  : Skipping ROMB. Missing...
+INFO     : add_sub_partition RBEP. offset: 0x1000. length: 0x20000
+INFO     : add_sub_partition FTPR. offset: 0x21000. length: 0x135000
+INFO     : add_sub_partition PSVN. offset: 0x156000. length: 0x200
+INFO     : add_sub_partition RSTR. offset: 0x156200. length: 0x18
+INFO     : add_sub_partition IMDP. offset: 0x156240. length: 0x40
+INFO     : add_sub_partition HVMP. offset: 0x156280. length: 0xC
+INFO     : add_sub_partition IVBP. offset: 0x157000. length: 0x4000
+INFO     : add_sub_partition MFS. offset: 0x15B000. length: 0x64000
+INFO     : add_sub_partition UTOK. offset: 0x1BF000. length: 0x2000
+INFO     : add_sub_partition FLOG. offset: 0x1C1000. length: 0x2000
+INFO     : add_sub_partition ELOG. offset: 0x1C3000. length: 0x1000
+INFO     : add_sub_partition EFS. offset: 0x1C4000. length: 0x11000
+INFO     : add_sub_partition FITC. offset: 0x1D5000. length: 0x8000
+INFO     : add_sub_partition UEP. offset: 0x1DD000. length: 0x2000
+WARNING  : Skipping FDCR. Missing...
+INFO     : add_sub_partition NFTP. offset: 0x1DF000. length: 0x1BD000
+INFO     : CseRegion decompose completed successfully
+INFO     : Executing PdrRegion decompose
+INFO     : PdrRegion decompose completed successfully
+INFO     : Executing PaddingRegion decompose
+INFO     : PaddingRegion decompose completed successfully
+INFO     : Executing BiosRegion decompose
+INFO     : BiosRegion decompose completed successfully
+INFO     : Executing IfwiRoot decompose
+INFO     : IfwiRoot decompose completed successfully
+INFO     : Saving image map file: LP-BS-S70NC1R200-SR-A/Decompose/LP-BS-S70NC1R200-SR-A.map
+INFO     : Saving image info file: LP-BS-S70NC1R200-SR-A/Decompose/LP-BS-S70NC1R200-SR-A.txt
+INFO     : Decompose '/tmp/Ald-CSME/LP-BS-S70NC1R200-SR-A.bin' image completed successfully
